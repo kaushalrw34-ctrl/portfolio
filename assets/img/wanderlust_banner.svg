@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#312e81"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.04"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle Grid lines -->
+  <g opacity="0.08" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="90" x2="800" y2="90"/>
+    <line x1="0" y1="180" x2="800" y2="180"/>
+    <line x1="0" y1="270" x2="800" y2="270"/>
+    <line x1="0" y1="360" x2="800" y2="360"/>
+    <line x1="160" y1="0" x2="160" y2="450"/>
+    <line x1="320" y1="0" x2="320" y2="450"/>
+    <line x1="480" y1="0" x2="480" y2="450"/>
+    <line x1="640" y1="0" x2="640" y2="450"/>
+  </g>
+
+  <!-- Glowing background orbs -->
+  <circle cx="200" cy="140" r="120" fill="#6366f1" opacity="0.25" filter="blur(50px)"/>
+  <circle cx="620" cy="300" r="140" fill="#38bdf8" opacity="0.2" filter="blur(60px)"/>
+
+  <!-- Browser / App Window Mockup -->
+  <g filter="url(#cardShadow)">
+    <rect x="90" y="55" width="620" height="340" rx="14" fill="#1e293b" stroke="rgba(255,255,255,0.15)" stroke-width="1.5"/>
+    
+    <!-- Window Bar -->
+    <rect x="90" y="55" width="620" height="42" rx="14" fill="#0f172a"/>
+    <rect x="90" y="85" width="620" height="12" fill="#0f172a"/>
+    <circle cx="115" cy="76" r="6" fill="#ef4444"/>
+    <circle cx="135" cy="76" r="6" fill="#f59e0b"/>
+    <circle cx="155" cy="76" r="6" fill="#10b981"/>
+    
+    <!-- URL Bar -->
+    <rect x="220" y="66" width="360" height="20" rx="6" fill="#1e293b"/>
+    <text x="320" y="80" fill="#94a3b8" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="11" font-weight="500">wanderlust.local / listings</text>
+
+    <!-- App Content Inside Mockup -->
+    <!-- App Header -->
+    <rect x="115" y="115" width="120" height="18" rx="4" fill="url(#accentGrad)"/>
+    <text x="123" y="128" fill="#ffffff" font-family="sans-serif" font-size="10" font-weight="700">WANDERLUST</text>
+    
+    <!-- Search Bar Mock -->
+    <rect x="290" y="114" width="220" height="20" rx="10" fill="#334155"/>
+    <text x="330" y="128" fill="#94a3b8" font-family="sans-serif" font-size="9">Search destinations, stays...</text>
+
+    <!-- 3 Cards inside mockup -->
+    <!-- Card 1 -->
+    <rect x="115" y="150" width="170" height="210" rx="10" fill="#0f172a" stroke="rgba(255,255,255,0.08)"/>
+    <rect x="115" y="150" width="170" height="110" rx="10" fill="#334155"/>
+    <!-- Mountain/Lake silhouette -->
+    <path d="M115 230 L160 180 L200 220 L240 170 L285 240 L115 240 Z" fill="#475569"/>
+    <circle cx="250" cy="175" r="10" fill="#fbbf24"/>
+    <text x="127" y="280" fill="#f8fafc" font-family="sans-serif" font-size="12" font-weight="700">Mountain Retreat</text>
+    <text x="127" y="298" fill="#94a3b8" font-family="sans-serif" font-size="10">Manali, Himachal Pradesh</text>
+    <text x="127" y="325" fill="#38bdf8" font-family="sans-serif" font-size="12" font-weight="700">Rs. 3,500 / night</text>
+    <rect x="220" y="315" width="52" height="20" rx="4" fill="#6366f1"/>
+    <text x="230" y="328" fill="#ffffff" font-family="sans-serif" font-size="9" font-weight="600">Explore</text>
+
+    <!-- Card 2 -->
+    <rect x="315" y="150" width="170" height="210" rx="10" fill="#0f172a" stroke="rgba(255,255,255,0.08)"/>
+    <rect x="315" y="150" width="170" height="110" rx="10" fill="#1e3a5f"/>
+    <!-- Beach / Coast silhouette -->
+    <path d="M315 235 Q390 200 485 235 L485 260 L315 260 Z" fill="#0284c7"/>
+    <circle cx="360" cy="180" r="12" fill="#fb923c"/>
+    <text x="327" y="280" fill="#f8fafc" font-family="sans-serif" font-size="12" font-weight="700">Coastal Villa</text>
+    <text x="327" y="298" fill="#94a3b8" font-family="sans-serif" font-size="10">Goa, Beachfront</text>
+    <text x="327" y="325" fill="#38bdf8" font-family="sans-serif" font-size="12" font-weight="700">Rs. 5,200 / night</text>
+    <rect x="420" y="315" width="52" height="20" rx="4" fill="#6366f1"/>
+    <text x="430" y="328" fill="#ffffff" font-family="sans-serif" font-size="9" font-weight="600">Explore</text>
+
+    <!-- Card 3 -->
+    <rect x="515" y="150" width="170" height="210" rx="10" fill="#0f172a" stroke="rgba(255,255,255,0.08)"/>
+    <rect x="515" y="150" width="170" height="110" rx="10" fill="#2d3748"/>
+    <!-- Forest silhouette -->
+    <polygon points="560,240 575,190 590,240" fill="#059669"/>
+    <polygon points="620,240 635,180 650,240" fill="#10b981"/>
+    <text x="527" y="280" fill="#f8fafc" font-family="sans-serif" font-size="12" font-weight="700">Forest Haven</text>
+    <text x="527" y="298" fill="#94a3b8" font-family="sans-serif" font-size="10">Wayanad, Kerala</text>
+    <text x="527" y="325" fill="#38bdf8" font-family="sans-serif" font-size="12" font-weight="700">Rs. 4,100 / night</text>
+    <rect x="620" y="315" width="52" height="20" rx="4" fill="#6366f1"/>
+    <text x="630" y="328" fill="#ffffff" font-family="sans-serif" font-size="9" font-weight="600">Explore</text>
+  </g>
+
+  <!-- In Progress Tech Badge Overlay -->
+  <rect x="635" y="25" width="125" height="30" rx="15" fill="#f59e0b"/>
+  <circle cx="650" cy="40" r="4" fill="#ffffff"/>
+  <text x="662" y="44" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="700">IN PROGRESS</text>
+</svg>

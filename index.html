@@ -1,0 +1,1276 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Primary SEO Meta Tags -->
+  <title>Kaushal Wani | Aspiring Full-Stack Developer & Engineering Student</title>
+  <meta name="title" content="Kaushal Wani | Aspiring Full-Stack Developer & Engineering Student">
+  <meta name="description" content="Portfolio of Kaushal Wani, a Computer Science & Business Systems engineering student at JSPM RSCOE Pune. Aspiring Full-Stack Developer learning web development and Java DSA.">
+  <meta name="keywords" content="Kaushal Wani, Portfolio, Full-Stack Developer, Engineering Student, JSPM RSCOE, Java DSA, Web Development, Wanderlust, SIH 2026, BhoomiTech, HTML, CSS, JavaScript">
+  <meta name="author" content="Kaushal Wani">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://kaushalrw34-ctrl.github.io/">
+  <meta property="og:title" content="Kaushal Wani | Aspiring Full-Stack Developer">
+  <meta property="og:description" content="Explore Kaushal Wani's projects, learning journey in web development and Java DSA, academic credentials, and leadership experiences.">
+  <meta property="og:image" content="assets/img/profile.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Kaushal Wani | Aspiring Full-Stack Developer">
+  <meta name="twitter:description" content="Explore Kaushal Wani's projects, learning journey in web development and Java DSA, academic credentials, and leadership experiences.">
+  <meta name="twitter:image" content="assets/img/profile.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+
+  <!-- Google Fonts: Plus Jakarta Sans (Headings) & Inter (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome Icons (Free CDN) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- html2pdf.js for Client-Side ATS Resume Generation (CDN) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Top Scroll Progress Indicator Bar -->
+  <div class="scroll-progress-bar" id="scroll-progress" aria-hidden="true"></div>
+
+  <!-- Sticky Modern Navigation Bar -->
+  <header>
+    <nav class="navbar" id="navbar" aria-label="Main Navigation">
+      <div class="container nav-container">
+        <!-- Logo / Brand -->
+        <a href="#hero" class="nav-brand" aria-label="Kaushal Wani Home">
+          <div class="brand-icon">KW</div>
+          <span>Kaushal Wani</span>
+        </a>
+
+        <!-- Desktop Navigation Menu -->
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#coding-profile" class="nav-link">Coding</a></li>
+          <li><a href="#experience" class="nav-link">Leadership</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <!-- Navigation Action Buttons (Theme Toggle & Mobile Menu) -->
+        <div class="nav-actions">
+          <button type="button" class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle theme" title="Toggle dark/light mode">
+            <i class="fas fa-moon"></i>
+          </button>
+          <button type="button" class="btn btn-primary btn-sm btn-download-resume" id="nav-resume-btn">
+            <i class="fas fa-file-pdf"></i> Resume
+          </button>
+          <button type="button" class="mobile-nav-toggle" id="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+            <span class="hamburger-bar"></span>
+            <span class="hamburger-bar"></span>
+            <span class="hamburger-bar"></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Mobile Navigation Overlay -->
+  <div class="mobile-nav-overlay" id="mobile-overlay" aria-hidden="true"></div>
+
+  <main>
+    <!-- ====================================================================
+         SECTION 1: HERO
+         ==================================================================== -->
+    <section id="hero" class="hero">
+      <div class="hero-glow-bg" aria-hidden="true"></div>
+      <div class="hero-glow-bg-left" aria-hidden="true"></div>
+
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Hero Text Content -->
+          <div class="hero-text-content">
+            <div class="hero-tag">
+              <span class="pulse-dot"></span>
+              <span>Computer Science &amp; Business Systems • JSPM RSCOE</span>
+            </div>
+
+            <h1 class="hero-title">
+              Hi, I'm <span class="gradient-text">Kaushal Wani</span>
+            </h1>
+
+            <!-- Animated Typing Role Container -->
+            <div class="typing-container" aria-label="Current focus">
+              <span class="typing-text" id="typing-roles">Aspiring Full-Stack Developer</span>
+            </div>
+
+            <!-- Exact User Introduction -->
+            <p class="hero-description">
+              Hi, I'm Kaushal Wani, an engineering student and aspiring Full-Stack Developer. I'm currently learning front-end and back-end web development, exploring database technologies, and practicing Data Structures and Algorithms using Java. I enjoy building projects, learning new technologies, and continuously improving my technical skills.
+            </p>
+
+            <!-- Action Buttons -->
+            <div class="hero-actions">
+              <button type="button" class="btn btn-primary btn-download-resume" id="hero-resume-btn">
+                <i class="fas fa-download"></i> Download Resume
+              </button>
+              <a href="#projects" class="btn btn-secondary">
+                <i class="fas fa-laptop-code"></i> View Projects
+              </a>
+              <a href="#contact" class="btn btn-outline">
+                <i class="fas fa-envelope"></i> Contact Me
+              </a>
+            </div>
+
+            <!-- Social Profile Links & Contact Quick Links -->
+            <div class="hero-socials" aria-label="Social media profiles">
+              <a href="https://github.com/kaushalrw34-ctrl" target="_blank" rel="noopener noreferrer" class="social-btn" title="GitHub Profile - kaushalrw34-ctrl" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/kaushal-wani-4558b1329" target="_blank" rel="noopener noreferrer" class="social-btn" title="LinkedIn Profile - Kaushal Wani" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="https://leetcode.com/u/kaushalwani/" target="_blank" rel="noopener noreferrer" class="social-btn" title="LeetCode Profile - kaushalwani" aria-label="LeetCode">
+                <i class="fas fa-code"></i>
+              </a>
+              <a href="mailto:kaushalrw34@gmail.com" class="social-btn" title="Send Email - kaushalrw34@gmail.com" aria-label="Email">
+                <i class="fas fa-envelope"></i>
+              </a>
+              <a href="tel:+919579294911" class="social-btn" title="Call / WhatsApp - +91 9579294911" aria-label="Phone">
+                <i class="fas fa-phone-alt"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Hero Profile Image Visual -->
+          <div class="hero-visual">
+            <div class="hero-card-wrapper">
+              <div class="hero-img-frame">
+                <img src="assets/img/profile.jpg" alt="Kaushal Wani - Engineering Student and Aspiring Developer" class="hero-profile-img" loading="eager" width="380" height="475">
+              </div>
+
+              <!-- Floating Info Badge on Card -->
+              <div class="hero-floating-badge">
+                <div class="badge-avatar-mini">
+                  <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div>
+                  <div class="badge-text-title">B.Tech Student (CSBS)</div>
+                  <div class="badge-text-sub">JSPM's RSCOE, Pune • Second Year</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SECTION 2: ABOUT ME
+         ==================================================================== -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge"><i class="fas fa-user"></i> Profile</div>
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">My learning journey, curiosity, and practical approach to technology</p>
+        </div>
+
+        <div class="about-grid">
+          <!-- About Narrative -->
+          <div class="glass-card">
+            <div class="card-icon"><i class="fas fa-compass"></i></div>
+            <h3 class="card-title">Learning Journey &amp; Ambition</h3>
+            
+            <p class="about-text-lead">
+              I am an engineering student currently pursuing Computer Science &amp; Business Systems at JSPM's RSCOE, Pune. My daily focus revolves around building strong foundations in web development, exploring database design, and strengthening problem-solving skills through Data Structures and Algorithms in Java.
+            </p>
+
+            <p>
+              Rather than rushing to make exaggerated claims of expertise, I believe in honest, consistent learning by doing. I enjoy understanding how the front-end connects with server-side logic, experimenting with responsive user interfaces, and writing clean, structured code. My goal is to continually learn, take on constructive feedback, and grow into a capable Full-Stack Developer.
+            </p>
+
+            <!-- Mission Statement preserved from old portfolio -->
+            <div class="mission-quote">
+              <p>
+                <strong>Mission Statement:</strong> "To leverage technology and innovation to create meaningful solutions that solve real-world problems. I am committed to continuous learning and growth in full-stack development, with a focus on building scalable and user-centric applications."
+              </p>
+            </div>
+          </div>
+
+          <!-- Quick Facts & Extracurriculars -->
+          <div class="glass-card">
+            <div class="card-icon"><i class="fas fa-id-card"></i></div>
+            <h3 class="card-title">Personal Information</h3>
+
+            <div class="about-info-list">
+              <div class="info-item">
+                <div class="info-label">Full Name</div>
+                <div class="info-value">Kaushal Wani</div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-label">Contact Mobile</div>
+                <div class="info-value">
+                  <a href="tel:+919579294911" style="color: var(--primary); text-decoration: none;">+91 9579294911</a>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-label">Email</div>
+                <div class="info-value">
+                  <a href="mailto:kaushalrw34@gmail.com" style="color: var(--text-primary); text-decoration: none;">kaushalrw34@gmail.com</a>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-label">Roll Number</div>
+                <div class="info-value">RBT24CB060</div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-label">Department</div>
+                <div class="info-value">Computer Science &amp; Business Systems</div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-label">Institute</div>
+                <div class="info-value">JSPM's RSCOE, Pune</div>
+              </div>
+            </div>
+
+            <!-- Languages Known preserved from old portfolio -->
+            <div style="margin-top: 1.25rem;">
+              <h4 style="font-size: 0.95rem; margin-bottom: 0.5rem; color: var(--text-primary);"><i class="fas fa-language"></i> Languages Known</h4>
+              <div class="tag-cloud">
+                <span class="pill-tag"><i class="fas fa-check-circle" style="color: var(--primary);"></i> English</span>
+                <span class="pill-tag"><i class="fas fa-check-circle" style="color: var(--primary);"></i> Japanese (Basic)</span>
+                <span class="pill-tag"><i class="fas fa-check-circle" style="color: var(--primary);"></i> Hindi / Marathi</span>
+              </div>
+            </div>
+
+            <!-- Sports & Co-curricular preserved from old portfolio -->
+            <div style="margin-top: 1.25rem;">
+              <h4 style="font-size: 0.95rem; margin-bottom: 0.5rem; color: var(--text-primary);"><i class="fas fa-volleyball-ball"></i> Co-curricular Focus</h4>
+              <p style="font-size: 0.9rem; margin-bottom: 0;">
+                Active participation in <strong>volleyball</strong> has strengthened my teamwork, strategic thinking under pressure, discipline, and stamina — values I bring to software collaboration.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SECTION 3: EDUCATION
+         ==================================================================== -->
+    <section id="education" class="section" style="background: var(--bg-tertiary);">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge"><i class="fas fa-graduation-cap"></i> Academics</div>
+          <h2 class="section-title">Education</h2>
+          <p class="section-subtitle">Academic milestones, consistent performance, and curriculum focus</p>
+        </div>
+
+        <!-- Featured Current Degree Card -->
+        <div class="education-hero-card">
+          <div class="edu-header">
+            <div>
+              <h3 class="edu-institute">JSPM's Rajarshi Shahu College of Engineering (Autonomous), Pune</h3>
+              <div class="edu-degree">Bachelor of Technology (B.Tech) — Computer Science &amp; Business Systems (CSBS)</div>
+              <p style="margin-top: 0.25rem; font-size: 0.9rem; color: var(--text-muted);">
+                Affiliated to Savitribai Phule Pune University (SPPU) • Current Academic Year: Second Year (2024–2028 Batch)
+              </p>
+            </div>
+            <div class="badge badge-primary" style="font-size: 0.85rem; padding: 0.4rem 0.85rem;">
+              <i class="fas fa-calendar-check"></i> 2024 – 2028
+            </div>
+          </div>
+
+          <!-- Academic Highlights Stats Row with Sem III 8.45 SGPA -->
+          <div class="edu-stats-row">
+            <div class="edu-stat-box">
+              <div class="edu-stat-value">8.39</div>
+              <div class="edu-stat-label">Current CGPA</div>
+            </div>
+            <div class="edu-stat-box">
+              <div class="edu-stat-value">8.55</div>
+              <div class="edu-stat-label">Semester IV SGPA</div>
+            </div>
+            <div class="edu-stat-box">
+              <div class="edu-stat-value">8.45</div>
+              <div class="edu-stat-label">Semester III SGPA</div>
+            </div>
+            <div class="edu-stat-box">
+              <div class="edu-stat-value">8.70</div>
+              <div class="edu-stat-label">Semester II SGPA</div>
+            </div>
+            <div class="edu-stat-box">
+              <div class="edu-stat-value">8.30</div>
+              <div class="edu-stat-label">Semester I SGPA</div>
+            </div>
+          </div>
+
+          <!-- Semester Progression Table -->
+          <h4 style="font-size: 1.05rem; margin-top: 1.5rem; margin-bottom: 0.75rem;">
+            <i class="fas fa-chart-line"></i> Semester-wise Academic Records
+          </h4>
+          <div class="table-responsive">
+            <table class="modern-table">
+              <thead>
+                <tr>
+                  <th>Academic Term</th>
+                  <th>Department / Focus</th>
+                  <th>SGPA / Grade</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Semester IV</strong></td>
+                  <td>Computer Science &amp; Business Systems Core</td>
+                  <td><span class="badge badge-primary" style="font-size: 0.9rem;">8.55 SGPA</span></td>
+                  <td><span class="badge badge-success">Completed</span></td>
+                </tr>
+                <tr>
+                  <td><strong>Semester III</strong></td>
+                  <td>Data Structures, Discrete Math &amp; OOP</td>
+                  <td><span class="badge badge-primary" style="font-size: 0.9rem;">8.45 SGPA</span></td>
+                  <td><span class="badge badge-success">Completed</span></td>
+                </tr>
+                <tr>
+                  <td><strong>Semester II</strong></td>
+                  <td>Core Engineering &amp; Computing Principles</td>
+                  <td><span class="badge badge-primary" style="font-size: 0.9rem;">8.70 SGPA</span></td>
+                  <td><span class="badge badge-success">Completed</span></td>
+                </tr>
+                <tr>
+                  <td><strong>Semester I</strong></td>
+                  <td>Foundational Engineering &amp; Programming</td>
+                  <td><span class="badge badge-primary" style="font-size: 0.9rem;">8.30 SGPA</span></td>
+                  <td><span class="badge badge-success">Completed</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Schooling Background (12th & 10th) -->
+        <div class="prior-education-grid">
+          <!-- 12th HSC -->
+          <div class="glass-card">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.75rem;">
+              <div>
+                <span class="badge badge-primary">HSC (12th Grade)</span>
+                <h4 style="font-size: 1.15rem; margin-top: 0.4rem;">DDSP College</h4>
+              </div>
+              <span style="font-size: 0.85rem; font-weight: 600; color: var(--text-muted);">2024</span>
+            </div>
+            <p style="font-size: 0.925rem; margin-bottom: 0.75rem;">Higher Secondary Education (Science stream) with focus on Physics, Chemistry, and Mathematics.</p>
+            <div style="display: flex; align-items: center; justify-content: space-between; padding-top: 0.75rem; border-top: 1px solid var(--border-subtle);">
+              <span style="font-size: 0.85rem; color: var(--text-muted);">Result Percentage</span>
+              <strong style="color: var(--primary); font-size: 1.15rem;">83.00%</strong>
+            </div>
+          </div>
+
+          <!-- 10th SSC -->
+          <div class="glass-card">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.75rem;">
+              <div>
+                <span class="badge badge-primary">SSC (10th Grade)</span>
+                <h4 style="font-size: 1.15rem; margin-top: 0.4rem;">Podar International School</h4>
+              </div>
+              <span style="font-size: 0.85rem; font-weight: 600; color: var(--text-muted);">2022</span>
+            </div>
+            <p style="font-size: 0.925rem; margin-bottom: 0.75rem;">Secondary School Certificate, achieving academic excellence and participating in Olympiads.</p>
+            <div style="display: flex; align-items: center; justify-content: space-between; padding-top: 0.75rem; border-top: 1px solid var(--border-subtle);">
+              <span style="font-size: 0.85rem; color: var(--text-muted);">Result Percentage</span>
+              <strong style="color: var(--primary); font-size: 1.15rem;">84.00%</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SECTION 4: SKILLS
+         ==================================================================== -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge"><i class="fas fa-code"></i> Technical Stack</div>
+          <h2 class="section-title">Skills &amp; Technologies</h2>
+          <p class="section-subtitle">Categorized technologies and tools I actively practice and learn</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Programming Languages -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon"><i class="fas fa-terminal"></i></div>
+              <h3 class="skill-cat-title">Programming Languages</h3>
+            </div>
+            <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 1.25rem;">
+              Core foundational languages used for algorithmic problem solving and development.
+            </p>
+            <div class="tech-tag-container">
+              <div class="tech-chip"><i class="fab fa-java"></i> Java (Core &amp; OOP)</div>
+              <div class="tech-chip"><i class="fab fa-python"></i> Python</div>
+              <div class="tech-chip"><i class="fab fa-js-square"></i> JavaScript</div>
+              <div class="tech-chip"><i class="fas fa-code"></i> C++</div>
+              <div class="tech-chip"><i class="fas fa-file-code"></i> C</div>
+            </div>
+          </div>
+
+          <!-- Web Development -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon"><i class="fas fa-globe"></i></div>
+              <h3 class="skill-cat-title">Web Development</h3>
+            </div>
+            <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 1.25rem;">
+              Markup, responsive styling, scripting, dynamic templating, and backend exploration.
+            </p>
+            <div class="tech-tag-container">
+              <div class="tech-chip"><i class="fab fa-html5"></i> HTML5</div>
+              <div class="tech-chip"><i class="fab fa-css3-alt"></i> CSS3</div>
+              <div class="tech-chip"><i class="fab fa-js"></i> JavaScript (ES6+)</div>
+              <div class="tech-chip"><i class="fas fa-layer-group"></i> EJS Templating</div>
+              <div class="tech-chip learning-chip" title="Currently learning backend web development">
+                <i class="fab fa-node-js"></i> Node.js &amp; Express.js <span style="font-size: 0.7rem; color: var(--accent-amber);">(Learning)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Database -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon"><i class="fas fa-database"></i></div>
+              <h3 class="skill-cat-title">Database</h3>
+            </div>
+            <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 1.25rem;">
+              Relational schema structure, query writing, and data modeling for applications.
+            </p>
+            <div class="tech-tag-container">
+              <div class="tech-chip"><i class="fas fa-database"></i> MySQL</div>
+              <div class="tech-chip"><i class="fas fa-table"></i> Relational Queries</div>
+              <div class="tech-chip"><i class="fas fa-project-diagram"></i> Schema Design</div>
+            </div>
+          </div>
+
+          <!-- Developer Tools -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon"><i class="fas fa-tools"></i></div>
+              <h3 class="skill-cat-title">Tools &amp; Workflow</h3>
+            </div>
+            <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 1.25rem;">
+              Version control systems and development environments used in coursework and projects.
+            </p>
+            <div class="tech-tag-container">
+              <div class="tech-chip"><i class="fab fa-git-alt"></i> Git</div>
+              <div class="tech-chip"><i class="fab fa-github"></i> GitHub</div>
+              <div class="tech-chip"><i class="fas fa-laptop-code"></i> VS Code</div>
+            </div>
+          </div>
+
+          <!-- Featured: Currently Learning Badge -->
+          <div class="skill-category-card featured-learning" style="grid-column: 1 / -1;">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon" style="background: rgba(245, 158, 11, 0.15); color: var(--accent-amber);"><i class="fas fa-seedling"></i></div>
+              <div>
+                <h3 class="skill-cat-title">Active Learning Focus: Data Structures &amp; Algorithms in Java</h3>
+                <span class="badge badge-warning"><i class="fas fa-spinner fa-spin"></i> Currently Learning &amp; Practicing</span>
+              </div>
+            </div>
+            <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 1.25rem; max-width: 900px;">
+              I am actively practicing Data Structures and Algorithms using Java, focusing on writing clean code and understanding algorithmic complexity (Time &amp; Space complexity). Topics being practiced include:
+            </p>
+            <div class="tech-tag-container">
+              <span class="pill-tag"><i class="fas fa-check" style="color: var(--primary);"></i> Arrays &amp; Strings</span>
+              <span class="pill-tag"><i class="fas fa-check" style="color: var(--primary);"></i> Recursion &amp; Backtracking</span>
+              <span class="pill-tag"><i class="fas fa-check" style="color: var(--primary);"></i> Singly &amp; Doubly Linked Lists</span>
+              <span class="pill-tag"><i class="fas fa-check" style="color: var(--primary);"></i> Stacks &amp; Queues</span>
+              <span class="pill-tag"><i class="fas fa-check" style="color: var(--primary);"></i> Sorting &amp; Searching Algorithms</span>
+              <span class="pill-tag"><i class="fas fa-check" style="color: var(--primary);"></i> Java Collections Framework</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SECTION 5: PROJECTS
+         ==================================================================== -->
+    <section id="projects" class="section" style="background: var(--bg-tertiary);">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge"><i class="fas fa-cubes"></i> Portfolio Work</div>
+          <h2 class="section-title">Projects</h2>
+          <p class="section-subtitle">Real-world applications and hackathon initiatives I am actively building</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: Wanderlust -->
+          <article class="project-card">
+            <div class="project-media-wrapper">
+              <img src="assets/img/wanderlust_banner.svg" alt="Wanderlust Web Application Preview" class="project-img" loading="lazy" width="800" height="450">
+              <span class="badge badge-warning project-status-badge">
+                <i class="fas fa-tools"></i> In Progress
+              </span>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Wanderlust — Vacation Rental Platform</h3>
+              <p class="project-description">
+                A full-stack web application designed for browsing and listing vacation stays and rentals. Built using the MVC (Model-View-Controller) architecture, utilizing dynamic template rendering with EJS, relational/document database schemas, responsive styling, and basic CRUD listing management.
+              </p>
+
+              <!-- Supported Tech Stack -->
+              <div class="project-tech-stack">
+                <span class="tech-chip"><i class="fab fa-html5"></i> HTML5</span>
+                <span class="tech-chip"><i class="fab fa-css3-alt"></i> CSS3</span>
+                <span class="tech-chip"><i class="fab fa-js"></i> JavaScript</span>
+                <span class="tech-chip"><i class="fas fa-layer-group"></i> EJS</span>
+                <span class="tech-chip"><i class="fab fa-node-js"></i> Node.js</span>
+                <span class="tech-chip"><i class="fas fa-server"></i> Express.js</span>
+                <span class="tech-chip"><i class="fas fa-database"></i> MySQL</span>
+              </div>
+
+              <div class="project-links">
+                <a href="https://github.com/kaushalrw34-ctrl" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  <i class="fab fa-github"></i> GitHub Profile
+                </a>
+                <span style="font-size: 0.85rem; color: var(--text-muted); margin-left: auto;">
+                  <i class="fas fa-info-circle"></i> Active Development
+                </span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Smart India Hackathon (SIH) 2026 - Team BhoomiTech -->
+          <article class="project-card">
+            <div class="project-media-wrapper">
+              <img src="assets/img/sih_banner.svg" alt="Smart India Hackathon 2026 - Team BhoomiTech Preview" class="project-img" loading="lazy" width="800" height="450">
+              <span class="badge badge-success project-status-badge">
+                <i class="fas fa-certificate"></i> Nominated by RSCOE Director
+              </span>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Smart India Hackathon (SIH) 2026 — Team BhoomiTech</h3>
+              <p class="project-description">
+                Officially nominated by Dr. A.M. Badadhe, Director of JSPM's Rajarshi Shahu College of Engineering (AICTE App No: 1-8068015, AISHE: C-41614), representing the college in Smart India Hackathon 2026 under team <strong>BhoomiTech</strong>. Collaborating with department peers to build innovative software solutions tackling critical national problem statements.
+              </p>
+
+              <!-- Verified Team & Nomination Details Box -->
+              <div style="background: var(--bg-tertiary); padding: 0.85rem 1rem; border-radius: var(--radius-sm); border: 1px solid var(--border-subtle); margin-bottom: 1.25rem;">
+                <div style="font-size: 0.775rem; text-transform: uppercase; font-weight: 700; color: var(--primary); margin-bottom: 0.25rem;">
+                  <i class="fas fa-users"></i> Official Team Roster &amp; Nomination
+                </div>
+                <div style="font-size: 0.88rem; color: var(--text-secondary); margin-bottom: 0.35rem;">
+                  <strong>Team Name:</strong> BhoomiTech • <strong>Nomination Date:</strong> 17/09/2026
+                </div>
+                <div style="font-size: 0.825rem; color: var(--text-muted); line-height: 1.5;">
+                  <strong>Team Leader:</strong> Vedant Deshmukh • <strong>My Role:</strong> Team Member (CSBS, 2026–2027) • <strong>Team Members:</strong> Siddhi Bhintade, Aditya Patil, Ashish Gadhave, Sai Toley, Kaushal Wani.
+                </div>
+              </div>
+
+              <!-- Tech Stack Chips -->
+              <div class="project-tech-stack">
+                <span class="tech-chip"><i class="fas fa-trophy"></i> SIH 2026</span>
+                <span class="tech-chip"><i class="fas fa-users"></i> BhoomiTech</span>
+                <span class="tech-chip"><i class="fas fa-laptop-code"></i> Full-Stack Prototype</span>
+                <span class="tech-chip"><i class="fas fa-database"></i> Database Architecture</span>
+              </div>
+
+              <div class="project-links">
+                <!-- Lightbox trigger for SIH Nomination Letter -->
+                <button type="button" class="btn btn-secondary btn-sm" 
+                        data-lightbox-src="assets/certs/sih_nomination_letter.jpg" 
+                        data-lightbox-title="Smart India Hackathon 2026 - Official Nomination Letter (Team BhoomiTech)">
+                  <i class="fas fa-file-contract"></i> View Nomination Letter
+                </button>
+                <span class="badge badge-success" style="margin-left: auto;">Verified Selection</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SECTION 6: CODING PROFILE
+         ==================================================================== -->
+    <section id="coding-profile" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge"><i class="fas fa-code-branch"></i> Competitive Coding</div>
+          <h2 class="section-title">Coding Profile</h2>
+          <p class="section-subtitle">Consistent problem-solving and algorithmic practice on LeetCode</p>
+        </div>
+
+        <div class="coding-profiles-grid">
+          <!-- Featured LeetCode Card -->
+          <div class="leetcode-hero-card">
+            <div class="leetcode-header">
+              <div class="leetcode-logo-group">
+                <div class="leetcode-icon-box">
+                  <i class="fas fa-code"></i>
+                </div>
+                <div>
+                  <h3 style="font-size: 1.45rem; font-weight: 800; margin-bottom: 0.2rem;">LeetCode Practice</h3>
+                  <a href="https://leetcode.com/u/kaushalwani/" target="_blank" rel="noopener noreferrer" style="font-family: var(--font-mono); font-size: 0.95rem; color: var(--primary);">
+                    @kaushalwani <i class="fas fa-external-link-alt" style="font-size: 0.75rem;"></i>
+                  </a>
+                </div>
+              </div>
+              <span class="badge badge-warning" style="font-size: 0.85rem; padding: 0.35rem 0.8rem;">
+                <i class="fab fa-java"></i> Java DSA
+              </span>
+            </div>
+
+            <p style="font-size: 0.975rem; color: var(--text-secondary); line-height: 1.6;">
+              Practicing fundamental data structures and algorithmic paradigms on LeetCode using Java. Focusing on building strong logic for core concepts like two-pointer patterns, string manipulations, linked list traversal, recursion, and stack-based problem solving.
+            </p>
+
+            <!-- Focus Topics Grid (Honest, no invented counts) -->
+            <div class="coding-topics-grid">
+              <div class="topic-stat-item">
+                <div class="topic-name">Primary Language</div>
+                <div class="topic-status" style="color: var(--primary);">Java</div>
+              </div>
+              <div class="topic-stat-item">
+                <div class="topic-name">Array &amp; Strings</div>
+                <div class="topic-status">Active Practice</div>
+              </div>
+              <div class="topic-stat-item">
+                <div class="topic-name">Linked Lists</div>
+                <div class="topic-status">Active Practice</div>
+              </div>
+              <div class="topic-stat-item">
+                <div class="topic-name">Stacks &amp; Queues</div>
+                <div class="topic-status">Active Practice</div>
+              </div>
+            </div>
+
+            <div style="margin-top: auto; padding-top: 1rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
+              <span style="font-size: 0.85rem; color: var(--text-muted);">
+                <i class="fas fa-check-circle" style="color: var(--accent-emerald);"></i> Authentic profile verified
+              </span>
+              <a href="https://leetcode.com/u/kaushalwani/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                <i class="fas fa-external-link-alt"></i> Visit LeetCode Profile
+              </a>
+            </div>
+          </div>
+
+          <!-- Quick Connect Profiles -->
+          <div class="quick-profiles-column">
+            <!-- GitHub Card -->
+            <a href="https://github.com/kaushalrw34-ctrl" target="_blank" rel="noopener noreferrer" class="profile-link-card">
+              <div style="display: flex; align-items: center; gap: 1rem;">
+                <div style="width: 44px; height: 44px; border-radius: var(--radius-sm); background: var(--bg-tertiary); display: flex; align-items: center; justify-content: center; font-size: 1.35rem; color: var(--text-primary);">
+                  <i class="fab fa-github"></i>
+                </div>
+                <div>
+                  <h4 style="font-size: 1.05rem; margin-bottom: 0.15rem;">GitHub Repository</h4>
+                  <span style="font-size: 0.85rem; color: var(--text-muted);">@kaushalrw34-ctrl</span>
+                </div>
+              </div>
+              <i class="fas fa-arrow-right" style="color: var(--primary);"></i>
+            </a>
+
+            <!-- LinkedIn Card -->
+            <a href="https://www.linkedin.com/in/kaushal-wani-4558b1329" target="_blank" rel="noopener noreferrer" class="profile-link-card">
+              <div style="display: flex; align-items: center; gap: 1rem;">
+                <div style="width: 44px; height: 44px; border-radius: var(--radius-sm); background: rgba(10, 102, 194, 0.12); display: flex; align-items: center; justify-content: center; font-size: 1.35rem; color: #0a66c2;">
+                  <i class="fab fa-linkedin-in"></i>
+                </div>
+                <div>
+                  <h4 style="font-size: 1.05rem; margin-bottom: 0.15rem;">LinkedIn Network</h4>
+                  <span style="font-size: 0.85rem; color: var(--text-muted);">kaushal-wani-4558b1329</span>
+                </div>
+              </div>
+              <i class="fas fa-arrow-right" style="color: var(--primary);"></i>
+            </a>
+
+            <!-- Academic Olympiad Achievement (Preserved from old portfolio) -->
+            <div class="glass-card" style="padding: 1.25rem;">
+              <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem;">
+                <i class="fas fa-medal" style="color: #ffd700; font-size: 1.25rem;"></i>
+                <h4 style="font-size: 0.95rem; margin-bottom: 0;">Olympiad Participation</h4>
+              </div>
+              <p style="font-size: 0.85rem; margin-bottom: 0; color: var(--text-secondary);">
+                Active participation in academic Olympiad competitions, demonstrating early interest in problem solving and analytical reasoning.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SECTION 7: EXPERIENCE AND LEADERSHIP
+         ==================================================================== -->
+    <section id="experience" class="section" style="background: var(--bg-tertiary);">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge"><i class="fas fa-users-cog"></i> Student Leadership</div>
+          <h2 class="section-title">Experience &amp; Leadership</h2>
+          <p class="section-subtitle">Student organizations, committee responsibilities, and collaborative initiatives</p>
+        </div>
+
+        <div class="timeline-modern">
+          <!-- Role 1: ACBS Digital Team -->
+          <div class="timeline-card-item">
+            <div class="timeline-node" aria-hidden="true"></div>
+            <div class="timeline-content-card">
+              <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 0.5rem;">
+                <div>
+                  <h3 class="timeline-role">Member, Digital Team</h3>
+                  <div class="timeline-org">Association of Computer Science &amp; Business Systems (ACBS)</div>
+                  <div style="font-size: 0.85rem; color: var(--text-muted);">JSPM's Rajarshi Shahu College of Engineering, Pune</div>
+                </div>
+                <span class="badge badge-primary">Student Leadership</span>
+              </div>
+
+              <p style="margin-top: 1rem; font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">
+                Appointed to the Digital Team of the ACBS student council. Tasked with consistently driving innovation and creativity, helping turn complex organizational challenges into seamless digital solutions and supporting digital media outreach for department activities.
+              </p>
+
+              <!-- Clickable Appointment Letter Box with Lightbox -->
+              <div class="timeline-doc-preview">
+                <div class="doc-info">
+                  <i class="fas fa-file-contract doc-icon"></i>
+                  <div class="doc-meta">
+                    <h5>ACBS Official Appointment Letter</h5>
+                    <span>Signed by Vedika Shitole (President, ACBS) &amp; Faculty Coordinators</span>
+                  </div>
+                </div>
+
+                <button type="button" class="btn btn-outline btn-sm doc-thumb-btn" 
+                        data-lightbox-src="assets/certs/acbs_appointment_letter.jpg" 
+                        data-lightbox-title="ACBS Appointment Letter - Member, Digital Team">
+                  <i class="fas fa-expand"></i> View Letter
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Role 2: Co-Lead, Event Management — PDC Cell -->
+          <div class="timeline-card-item">
+            <div class="timeline-node" aria-hidden="true"></div>
+            <div class="timeline-content-card">
+              <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 0.5rem;">
+                <div>
+                  <h3 class="timeline-role">Co-Lead, Event Management</h3>
+                  <div class="timeline-org">PDC Cell (Professional Development Cell)</div>
+                  <div style="font-size: 0.85rem; color: var(--text-muted);">JSPM's Rajarshi Shahu College of Engineering, Pune</div>
+                </div>
+                <span class="badge badge-primary">Student Leadership</span>
+              </div>
+
+              <p style="margin-top: 1rem; font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">
+                Co-leading event operations and management for the Professional Development Cell. Responsibilities include organizing student skill-enhancement workshops, coordinating technical seminars, managing logistics, and fostering smooth communication across volunteer teams.
+              </p>
+
+              <div class="tag-cloud" style="margin-top: 1rem;">
+                <span class="pill-tag"><i class="fas fa-calendar-check" style="color: var(--primary);"></i> Event Planning</span>
+                <span class="pill-tag"><i class="fas fa-users" style="color: var(--primary);"></i> Team Coordination</span>
+                <span class="pill-tag"><i class="fas fa-bullhorn" style="color: var(--primary);"></i> Communication</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SECTION 8: CERTIFICATIONS
+         ==================================================================== -->
+    <section id="certifications" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge"><i class="fas fa-certificate"></i> Verified Credentials</div>
+          <h2 class="section-title">Certifications</h2>
+          <p class="section-subtitle">Verified coursework credentials from NPTEL IIT Madras, IIT Kanpur, and Anthropic</p>
+        </div>
+
+        <!-- Filter Chips: All, Technical, Soft Skills -->
+        <div class="cert-filters" role="tablist" aria-label="Certification category filters">
+          <button type="button" class="filter-chip active" data-filter="all" role="tab" aria-selected="true">
+            All Certificates (3)
+          </button>
+          <button type="button" class="filter-chip" data-filter="technical" role="tab" aria-selected="false">
+            Technical (2)
+          </button>
+          <button type="button" class="filter-chip" data-filter="soft-skills" role="tab" aria-selected="false">
+            Soft Skills (1)
+          </button>
+        </div>
+
+        <!-- Responsive Certifications Grid -->
+        <div class="certs-grid">
+          <!-- Cert A: Python for Data Science -->
+          <article class="cert-card" data-category="technical">
+            <div class="cert-thumb-container" 
+                 data-lightbox-src="assets/certs/nptel_python_data_science.png" 
+                 data-lightbox-title="Python for Data Science - NPTEL IIT Madras (Elite)">
+              <img src="assets/certs/nptel_python_data_science.png" alt="Python for Data Science Certificate - NPTEL IIT Madras" class="cert-img" loading="lazy" width="600" height="375">
+              <div class="cert-overlay-view">
+                <i class="fas fa-search-plus"></i> View Certificate
+              </div>
+            </div>
+
+            <div class="cert-body">
+              <div class="cert-top-meta">
+                <span class="cert-issuer">NPTEL • IIT Madras</span>
+                <span class="badge badge-warning"><i class="fas fa-medal"></i> Elite</span>
+              </div>
+
+              <h3 class="cert-title">Python for Data Science</h3>
+
+              <ul class="cert-details-list">
+                <li><span>Session:</span> <strong>Jan–Feb 2026 (4 Weeks)</strong></li>
+                <li><span>Consolidated Score:</span> <strong>60%</strong></li>
+                <li><span>Online Assignments:</span> <strong>22.33 / 25</strong></li>
+                <li><span>Proctored Exam:</span> <strong>37.5 / 75</strong></li>
+                <li><span>Recommended Credits:</span> <strong>2 Credits</strong></li>
+                <li><span>Roll Number:</span> <code style="font-size: 0.8rem;">NPTEL26CS80S366201852</code></li>
+              </ul>
+
+              <div class="cert-actions">
+                <button type="button" class="btn btn-secondary btn-sm" 
+                        data-lightbox-src="assets/certs/nptel_python_data_science.png" 
+                        data-lightbox-title="Python for Data Science - NPTEL IIT Madras (Elite)">
+                  <i class="fas fa-eye"></i> View Certificate
+                </button>
+                <span class="badge badge-primary" style="margin-left: auto;">Technical</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Cert B: Claude with the Anthropic API -->
+          <article class="cert-card" data-category="technical">
+            <div class="cert-thumb-container" 
+                 data-lightbox-src="assets/certs/claude_anthropic.png" 
+                 data-lightbox-title="Claude with the Anthropic API - Anthropic Completion Certificate">
+              <img src="assets/certs/claude_anthropic.png" alt="Claude with the Anthropic API Certificate - Anthropic" class="cert-img" loading="lazy" width="600" height="375">
+              <div class="cert-overlay-view">
+                <i class="fas fa-search-plus"></i> View Certificate
+              </div>
+            </div>
+
+            <div class="cert-body">
+              <div class="cert-top-meta">
+                <span class="cert-issuer">Anthropic</span>
+                <span class="badge badge-success"><i class="fas fa-check-circle"></i> Verified</span>
+              </div>
+
+              <h3 class="cert-title">Claude with the Anthropic API</h3>
+
+              <ul class="cert-details-list">
+                <li><span>Issuer:</span> <strong>Anthropic</strong></li>
+                <li><span>Issue Date:</span> <strong>March 13, 2026</strong></li>
+                <li><span>Certificate Number:</span> <code style="font-size: 0.8rem;">qtfzfagz844j</code></li>
+                <li><span>Topic:</span> <strong>LLM API Integration &amp; Prompting</strong></li>
+              </ul>
+
+              <div class="cert-actions">
+                <button type="button" class="btn btn-secondary btn-sm" 
+                        data-lightbox-src="assets/certs/claude_anthropic.png" 
+                        data-lightbox-title="Claude with the Anthropic API - Anthropic">
+                  <i class="fas fa-eye"></i> View
+                </button>
+                <a href="https://verify.skilljar.com/c/qtfzfagz844j" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm" style="margin-left: auto;">
+                  <i class="fas fa-external-link-alt"></i> Verify Online
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Cert C: Enhancing Soft Skills and Personality -->
+          <article class="cert-card" data-category="soft-skills">
+            <div class="cert-thumb-container" 
+                 data-lightbox-src="assets/certs/nptel_soft_skills.png" 
+                 data-lightbox-title="Enhancing Soft Skills and Personality - NPTEL IIT Kanpur">
+              <img src="assets/certs/nptel_soft_skills.png" alt="Enhancing Soft Skills and Personality Certificate - NPTEL IIT Kanpur" class="cert-img" loading="lazy" width="600" height="375">
+              <div class="cert-overlay-view">
+                <i class="fas fa-search-plus"></i> View Certificate
+              </div>
+            </div>
+
+            <div class="cert-body">
+              <div class="cert-top-meta">
+                <span class="cert-issuer">NPTEL • IIT Kanpur</span>
+                <span class="badge badge-primary"><i class="fas fa-award"></i> Completed</span>
+              </div>
+
+              <h3 class="cert-title">Enhancing Soft Skills &amp; Personality</h3>
+
+              <ul class="cert-details-list">
+                <li><span>Session:</span> <strong>Feb–Apr 2025 (8 Weeks)</strong></li>
+                <li><span>Consolidated Score:</span> <strong>55%</strong></li>
+                <li><span>Online Assignments:</span> <strong>22.88 / 25</strong></li>
+                <li><span>Proctored Exam:</span> <strong>32.25 / 75</strong></li>
+                <li><span>Recommended Credits:</span> <strong>2 or 3 Credits</strong></li>
+                <li><span>Roll Number:</span> <code style="font-size: 0.8rem;">NPTEL25HS87S955201651</code></li>
+              </ul>
+
+              <div class="cert-actions">
+                <button type="button" class="btn btn-secondary btn-sm" 
+                        data-lightbox-src="assets/certs/nptel_soft_skills.png" 
+                        data-lightbox-title="Enhancing Soft Skills and Personality - NPTEL IIT Kanpur">
+                  <i class="fas fa-eye"></i> View Certificate
+                </button>
+                <span class="badge badge-warning" style="margin-left: auto;">Soft Skills</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SECTION 9: CONTACT
+         ==================================================================== -->
+    <section id="contact" class="section" style="background: var(--bg-tertiary);">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge"><i class="fas fa-envelope"></i> Get In Touch</div>
+          <h2 class="section-title">Contact</h2>
+          <p class="section-subtitle">Reach out for project collaboration, learning opportunities, or questions</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Info Details -->
+          <div class="contact-info-card">
+            <h3 style="font-size: 1.35rem; margin-bottom: 1.5rem;">Contact Information</h3>
+
+            <!-- Email (From original portfolio) -->
+            <div class="contact-method-item">
+              <div class="contact-icon-box"><i class="fas fa-envelope"></i></div>
+              <div>
+                <div class="contact-label">Email Address</div>
+                <a href="mailto:kaushalrw34@gmail.com" class="contact-val">kaushalrw34@gmail.com</a>
+              </div>
+            </div>
+
+            <!-- Phone / WhatsApp (Direct verified link) -->
+            <div class="contact-method-item">
+              <div class="contact-icon-box"><i class="fas fa-phone-alt"></i></div>
+              <div>
+                <div class="contact-label">Phone &amp; WhatsApp</div>
+                <a href="tel:+919579294911" class="contact-val">+91 9579294911</a>
+              </div>
+            </div>
+
+            <!-- Location -->
+            <div class="contact-method-item">
+              <div class="contact-icon-box"><i class="fas fa-map-marker-alt"></i></div>
+              <div>
+                <div class="contact-label">Location</div>
+                <div class="contact-val">Pune, Maharashtra, India</div>
+              </div>
+            </div>
+
+            <!-- College / Dept -->
+            <div class="contact-method-item">
+              <div class="contact-icon-box"><i class="fas fa-university"></i></div>
+              <div>
+                <div class="contact-label">Department &amp; Institute</div>
+                <div class="contact-val">CSBS • JSPM RSCOE Pune</div>
+              </div>
+            </div>
+
+            <!-- Social Links Quick Bar -->
+            <div style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-subtle);">
+              <h4 style="font-size: 0.95rem; margin-bottom: 0.85rem; color: var(--text-primary);">Connect Across Platforms</h4>
+              <div class="hero-socials">
+                <a href="https://github.com/kaushalrw34-ctrl" target="_blank" rel="noopener noreferrer" class="social-btn" title="GitHub" aria-label="GitHub">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/kaushal-wani-4558b1329" target="_blank" rel="noopener noreferrer" class="social-btn" title="LinkedIn" aria-label="LinkedIn">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://leetcode.com/u/kaushalwani/" target="_blank" rel="noopener noreferrer" class="social-btn" title="LeetCode" aria-label="LeetCode">
+                  <i class="fas fa-code"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form (Mailto & Configurable Formspree Fallback) -->
+          <div class="contact-form">
+            <h3 style="font-size: 1.35rem; margin-bottom: 0.5rem;">Send a Direct Message</h3>
+            <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 1.5rem;">
+              Fill in your details below. Clicking Send will open your email client pre-filled, or submit directly if a Formspree endpoint is configured.
+            </p>
+
+            <form id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+              <div class="form-group">
+                <label for="form-name" class="form-label">Your Name *</label>
+                <input type="text" id="form-name" name="name" class="form-control" placeholder="e.g., Alex Johnson" required>
+              </div>
+
+              <div class="form-group">
+                <label for="form-email" class="form-label">Your Email *</label>
+                <input type="email" id="form-email" name="email" class="form-control" placeholder="e.g., alex@example.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="form-subject" class="form-label">Subject</label>
+                <input type="text" id="form-subject" name="subject" class="form-control" placeholder="Project collaboration / Inquiry">
+              </div>
+
+              <div class="form-group">
+                <label for="form-message" class="form-label">Message *</label>
+                <textarea id="form-message" name="message" class="form-control" rows="4" placeholder="Write your message here..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                <i class="fas fa-paper-plane"></i> Send Message
+              </button>
+
+              <div id="form-status" class="form-status" role="alert"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ====================================================================
+       SECTION 10: FOOTER
+       ==================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <h4>Kaushal Wani</h4>
+          <p>Aspiring Full-Stack Developer • CSBS Student at JSPM RSCOE Pune</p>
+        </div>
+
+        <ul class="footer-nav">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#coding-profile">Coding</a></li>
+          <li><a href="#experience">Leadership</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; <span id="current-year">2026</span> Kaushal Wani. All rights reserved.
+        </div>
+        <div>
+          Built with Semantic HTML5, Modern CSS &amp; Vanilla JavaScript
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back-to-Top Button -->
+  <button type="button" class="back-to-top-btn" id="back-to-top" aria-label="Scroll back to top" title="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- Document & Certificate Lightbox Modal -->
+  <div class="lightbox-modal" id="lightbox-modal" role="dialog" aria-modal="true" aria-labelledby="lightbox-title">
+    <div class="lightbox-container">
+      <div class="lightbox-header">
+        <h4 class="lightbox-title" id="lightbox-title">Document Preview</h4>
+        <div style="display: flex; align-items: center; gap: 0.5rem;">
+          <a href="#" id="lightbox-download" class="btn btn-secondary btn-sm" download title="Download document">
+            <i class="fas fa-download"></i> Save
+          </a>
+          <button type="button" class="lightbox-close-btn" id="lightbox-close" aria-label="Close document preview">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+      </div>
+      <div class="lightbox-body">
+        <img src="" alt="Preview image" id="lightbox-img">
+      </div>
+    </div>
+  </div>
+
+  <!-- ====================================================================
+       ATS-FRIENDLY ONE-PAGE A4 RESUME TEMPLATE (Hidden from web view, 
+       rendered for html2pdf.js generation and @media print)
+       ==================================================================== -->
+  <div id="resume-print-template" aria-hidden="true">
+    <div class="ats-resume">
+      <!-- Resume Header -->
+      <header class="ats-header">
+        <h1 class="ats-name">KAUSHAL WANI</h1>
+        <div class="ats-title-sub">Engineering Student &amp; Aspiring Full-Stack Developer</div>
+        <div class="ats-contact-bar">
+          <span>Pune, Maharashtra, India</span> • 
+          <span><a href="tel:+919579294911">+91 9579294911</a></span> • 
+          <span><a href="mailto:kaushalrw34@gmail.com">kaushalrw34@gmail.com</a></span> • 
+          <span><a href="https://www.linkedin.com/in/kaushal-wani-4558b1329">LinkedIn</a></span> • 
+          <span><a href="https://github.com/kaushalrw34-ctrl">GitHub</a></span> • 
+          <span><a href="https://leetcode.com/u/kaushalwani/">LeetCode</a></span>
+        </div>
+      </header>
+
+      <!-- 2-Line Honest Summary -->
+      <section class="ats-section">
+        <h2 class="ats-section-title">Professional Summary</h2>
+        <p class="ats-summary">
+          Engineering student and aspiring Full-Stack Developer currently learning web development, database technologies, and Data Structures and Algorithms using Java. Focused on building practical project experience, writing clean code, and solving problems effectively.
+        </p>
+      </section>
+
+      <!-- Education -->
+      <section class="ats-section">
+        <h2 class="ats-section-title">Education</h2>
+        <div class="ats-item">
+          <div class="ats-item-header">
+            <div>
+              <span class="ats-bold">JSPM's Rajarshi Shahu College of Engineering (Autonomous)</span>, Pune
+            </div>
+            <div class="ats-date">2024 – 2028 (Expected)</div>
+          </div>
+          <div class="ats-item-header">
+            <div class="ats-sub">B.Tech in Computer Science &amp; Business Systems (CSBS)</div>
+            <div class="ats-bold">CGPA: 8.39 | Sem IV: 8.55 | Sem III: 8.45 | Sem II: 8.70 | Sem I: 8.30</div>
+          </div>
+        </div>
+
+        <div class="ats-item" style="margin-top: 3px;">
+          <div class="ats-item-header">
+            <div>
+              <span class="ats-bold">DDSP College</span> — Higher Secondary Certificate (HSC, 12th)
+            </div>
+            <div class="ats-date">2024 | 83.00%</div>
+          </div>
+        </div>
+
+        <div class="ats-item" style="margin-top: 2px;">
+          <div class="ats-item-header">
+            <div>
+              <span class="ats-bold">Podar International School</span> — Secondary School Certificate (SSC, 10th)
+            </div>
+            <div class="ats-date">2022 | 84.00%</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Technical Skills -->
+      <section class="ats-section">
+        <h2 class="ats-section-title">Technical Skills</h2>
+        <div class="ats-skills-grid">
+          <div class="ats-skill-row">
+            <span class="ats-bold">Programming Languages:</span> Java (Core, OOP), Python, JavaScript, C++, C
+          </div>
+          <div class="ats-skill-row">
+            <span class="ats-bold">Web Development:</span> HTML5, CSS3, JavaScript (ES6+), EJS Templating, Node.js &amp; Express.js (Learning)
+          </div>
+          <div class="ats-skill-row">
+            <span class="ats-bold">Database:</span> MySQL (Relational Schema Design &amp; Queries)
+          </div>
+          <div class="ats-skill-row">
+            <span class="ats-bold">Tools &amp; Workflow:</span> Git, GitHub, VS Code
+          </div>
+          <div class="ats-skill-row">
+            <span class="ats-bold">Currently Learning:</span> Data Structures and Algorithms in Java (Arrays, Strings, LinkedLists, Stacks, Queues)
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section class="ats-section">
+        <h2 class="ats-section-title">Projects</h2>
+        <div class="ats-item">
+          <div class="ats-item-header">
+            <span class="ats-bold">Wanderlust — Vacation Rental Web Application</span>
+            <span class="ats-date">In Progress</span>
+          </div>
+          <div class="ats-sub">Technologies: HTML5, CSS3, JavaScript, EJS, Node.js, Express.js, MySQL</div>
+          <ul class="ats-bullet-list">
+            <li>Developing a full-stack stay-listing platform implementing Model-View-Controller (MVC) architectural patterns.</li>
+            <li>Configured dynamic server-side page rendering with EJS templates and relational database management.</li>
+            <li>Repository &amp; updates tracked on GitHub: <a href="https://github.com/kaushalrw34-ctrl">github.com/kaushalrw34-ctrl</a>.</li>
+          </ul>
+        </div>
+
+        <div class="ats-item">
+          <div class="ats-item-header">
+            <span class="ats-bold">Smart India Hackathon (SIH) 2026 — Team BhoomiTech</span>
+            <span class="ats-date">Nominated by RSCOE Director</span>
+          </div>
+          <div class="ats-sub">Team: BhoomiTech • Technologies: Full-Stack Web Prototype &amp; Database Architecture</div>
+          <ul class="ats-bullet-list">
+            <li>Officially nominated by RSCOE Director (AICTE App No: 1-8068015) to represent the institute at SIH 2026.</li>
+            <li>Collaborating with department peers to construct a scalable software prototype solving institutional challenges.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Leadership & Experience -->
+      <section class="ats-section">
+        <h2 class="ats-section-title">Leadership &amp; Extracurricular Experience</h2>
+        <div class="ats-item">
+          <div class="ats-item-header">
+            <span class="ats-bold">Co-Lead, Event Management — PDC Cell</span>
+            <span class="ats-date">JSPM RSCOE</span>
+          </div>
+          <ul class="ats-bullet-list">
+            <li>Co-leading student event management, coordinating technical workshops, seminar schedules, and participant logistics.</li>
+          </ul>
+        </div>
+
+        <div class="ats-item">
+          <div class="ats-item-header">
+            <span class="ats-bold">Member, Digital Team — Association of Computer Science &amp; Business Systems (ACBS)</span>
+            <span class="ats-date">JSPM RSCOE</span>
+          </div>
+          <ul class="ats-bullet-list">
+            <li>Appointed to drive innovation, creative solutions, and digital initiative execution for the department council.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Certifications -->
+      <section class="ats-section">
+        <h2 class="ats-section-title">Certifications</h2>
+        <ul class="ats-bullet-list" style="margin-top: 1px;">
+          <li>
+            <span class="ats-bold">Python for Data Science (Elite)</span> — NPTEL, IIT Madras | Score: 60% (Jan–Feb 2026)
+          </li>
+          <li>
+            <span class="ats-bold">Claude with the Anthropic API</span> — Anthropic | Cert No: qtfzfagz844j (March 2026)
+          </li>
+          <li>
+            <span class="ats-bold">Enhancing Soft Skills and Personality</span> — NPTEL, IIT Kanpur | Score: 55% (Feb–Apr 2025)
+          </li>
+        </ul>
+      </section>
+    </div>
+  </div>
+
+  <!-- Main JavaScript File -->
+  <script src="js/main.js"></script>
+</body>
+</html>
